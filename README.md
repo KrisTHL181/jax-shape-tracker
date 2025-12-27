@@ -49,6 +49,12 @@ git clone https://github.com/KrisTHL181/jax-shape-tracker.git
 cd jax-shape-tracker
 ```
 
+Or PyPI:
+
+```bash
+pip install jax-shape-tracker
+```
+
 Optional (for colored output):
 
 ```bash
