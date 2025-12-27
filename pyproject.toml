@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jax-shape-tracker"
-version = "0.1.0"
+version = "0.1.1"
 description = "Pinpoint JAX shape errors at the exact user code line"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -35,3 +35,6 @@ color = ["colorama"]
 [project.urls]
 Homepage = "https://github.com/KrisTHL181/jax-shape-tracker"
 Issues = "https://github.com/KrisTHL181/jax-shape-tracker/issues"
+
+[project.scripts]
+shape-tracker = "shape_tracker.__main__:main"
